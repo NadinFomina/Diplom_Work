@@ -1,0 +1,27 @@
+.start_btn{
+    width: 700px;
+    height: 160px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 25px;
+    outline: none;
+    color: white;
+    background-color: #7364af;
+    font-family: cursive;
+    font-size: 50px;
+    text-shadow: 5px 5px 3px #343435;
+    /* border: 1px solid white; */
+}
+.start_btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: #222222;
+    transition: .6s all ease;
+}
+.text_game{
+    color: aliceblue;
+}
+h3{
+    margin-bottom: 30px;
+    font-size: 100px;
+    text-shadow: 5px 5px 3px #343435;
+}
