@@ -4,19 +4,35 @@
     background-color: #fff;
     cursor: pointer;
     outline: none;
-    font-size: 200px;
-    color:darkgreen;
+    font-size: 300px;
+    color:rgb(62, 11, 90);
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 0px 33px 8px rgba(26, 153, 213, 0.2) inset;
+    text-shadow: 15px 15px 13px rgb(242, 228, 70);
+    box-shadow: 0px 0px 33px 8px rgba(199, 20, 175, 0.788) inset;
+}
+.squre:first-child{
+    border-top-left-radius: 20%;
+}
+.squre:nth-child(3){
+    border-top-right-radius: 20%;
+}
+.squre:last-child{
+    border-bottom-right-radius: 20%;
+}
+.squre:nth-child(7){
+    border-bottom-left-radius: 20%;
 }
 
+
 .squre:hover {
-    background: linear-gradient(45deg, #a8edea, #fed6e3);
+    background: linear-gradient(45deg, #f676f8, #e0b1c0);
     transition: 3s all ease;
+    z-index: 2;
 }
 .isActiveX{
     color:darkorchid;
+
 
 }

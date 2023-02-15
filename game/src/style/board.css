@@ -1,7 +1,9 @@
 .board {
-    width: 1220px;
-    height: 1220px;
-    display: flex;
-    flex-wrap: wrap;
-    gap:10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0;
+   
+
+
 }
